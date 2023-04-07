@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="reservation.html">Reservation</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="banner">
+			<h1>Welcome to Our Restaurant</h1>
+			<p>Experience the finest cuisine in town.</p>
+			<a href="reservation.html" class="button">Make a Reservation</a>
+		</section>
+		
+		<section id="specials">
+			<h2>Today's Specials</h2>
+			<ul>
+				<li>
+					<h3>Grilled Salmon</h3>
+					<p>Our signature salmon fillet, marinated in lemon and herbs, served with roasted vegetables.</p>
+				</li>
+				<li>
+					<h3>Wild Mushroom Risotto</h3>
+					<p>A creamy risotto with a blend of wild mushrooms, parmesan cheese, and truffle oil.</p>
+				</li>
+				<li>
+					<h3>Chocolate Lava Cake</h3>
+					<p>A warm chocolate cake with a gooey molten center, topped with vanilla ice cream and chocolate sauce.</p>
+				</li>
+			</ul>
+		</section>
+		
+		<section id="reviews">
+			<h2>What Our Customers Say</h2>
+			<ul>
+				<li>
+					<blockquote>"The food was amazing and the service was top-notch. Definitely one of the best restaurants in town!"</blockquote>
+					<p><em>- John Smith</em></p>
+				</li>
+				<li>
+					<blockquote>"I highly recommend this restaurant to anyone looking for a memorable dining experience. The atmosphere is great and the food is delicious!"</blockquote>
+					<p><em>- Jane Doe</em></p>
+				</li>
+				<li>
+					<blockquote>"This is my go-to restaurant for special occasions. The staff is always friendly and attentive, and the food is consistently excellent."</blockquote>
+					<p><em>- Tom Johnson</em></p>
+				</li>
+			</ul>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Restaurant Website</p>
+	</footer>
+</body>
+</html>
